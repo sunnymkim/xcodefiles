@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D518889A262694DD00D2B06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5188899262694DD00D2B06B /* AppDelegate.swift */; };
+		D518889C262694DD00D2B06B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D518889B262694DD00D2B06B /* SceneDelegate.swift */; };
+		D518889E262694DD00D2B06B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D518889D262694DD00D2B06B /* ViewController.swift */; };
+		D51888A3262694DF00D2B06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51888A2262694DF00D2B06B /* Assets.xcassets */; };
+		D51888A6262694DF00D2B06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51888A4262694DF00D2B06B /* LaunchScreen.storyboard */; };
+		D51888B1262694DF00D2B06B /* VobyusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51888B0262694DF00D2B06B /* VobyusTests.swift */; };
+		D51888BC262694DF00D2B06B /* VobyusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51888BB262694DF00D2B06B /* VobyusUITests.swift */; };
+		D51888CD2626951A00D2B06B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51888CC2626951A00D2B06B /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D51888AD262694DF00D2B06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D518888E262694DD00D2B06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5188895262694DD00D2B06B;
+			remoteInfo = Vobyus;
+		};
+		D51888B8262694DF00D2B06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D518888E262694DD00D2B06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5188895262694DD00D2B06B;
+			remoteInfo = Vobyus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5188896262694DD00D2B06B /* Vobyus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vobyus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5188899262694DD00D2B06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D518889B262694DD00D2B06B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D518889D262694DD00D2B06B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D51888A2262694DF00D2B06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51888A5262694DF00D2B06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51888A7262694DF00D2B06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51888AC262694DF00D2B06B /* VobyusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VobyusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51888B0262694DF00D2B06B /* VobyusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VobyusTests.swift; sourceTree = "<group>"; };
+		D51888B2262694DF00D2B06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51888B7262694DF00D2B06B /* VobyusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VobyusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51888BB262694DF00D2B06B /* VobyusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VobyusUITests.swift; sourceTree = "<group>"; };
+		D51888BD262694DF00D2B06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51888CC2626951A00D2B06B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5188893262694DD00D2B06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51888A9262694DF00D2B06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51888B4262694DF00D2B06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D518888D262694DD00D2B06B = {
+			isa = PBXGroup;
+			children = (
+				D5188898262694DD00D2B06B /* Vobyus */,
+				D51888AF262694DF00D2B06B /* VobyusTests */,
+				D51888BA262694DF00D2B06B /* VobyusUITests */,
+				D5188897262694DD00D2B06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5188897262694DD00D2B06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5188896262694DD00D2B06B /* Vobyus.app */,
+				D51888AC262694DF00D2B06B /* VobyusTests.xctest */,
+				D51888B7262694DF00D2B06B /* VobyusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5188898262694DD00D2B06B /* Vobyus */ = {
+			isa = PBXGroup;
+			children = (
+				D5188899262694DD00D2B06B /* AppDelegate.swift */,
+				D518889B262694DD00D2B06B /* SceneDelegate.swift */,
+				D518889D262694DD00D2B06B /* ViewController.swift */,
+				D51888CC2626951A00D2B06B /* WebViewController.swift */,
+				D51888A2262694DF00D2B06B /* Assets.xcassets */,
+				D51888A4262694DF00D2B06B /* LaunchScreen.storyboard */,
+				D51888A7262694DF00D2B06B /* Info.plist */,
+			);
+			path = Vobyus;
+			sourceTree = "<group>";
+		};
+		D51888AF262694DF00D2B06B /* VobyusTests */ = {
+			isa = PBXGroup;
+			children = (
+				D51888B0262694DF00D2B06B /* VobyusTests.swift */,
+				D51888B2262694DF00D2B06B /* Info.plist */,
+			);
+			path = VobyusTests;
+			sourceTree = "<group>";
+		};
+		D51888BA262694DF00D2B06B /* VobyusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D51888BB262694DF00D2B06B /* VobyusUITests.swift */,
+				D51888BD262694DF00D2B06B /* Info.plist */,
+			);
+			path = VobyusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5188895262694DD00D2B06B /* Vobyus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51888C0262694DF00D2B06B /* Build configuration list for PBXNativeTarget "Vobyus" */;
+			buildPhases = (
+				D5188892262694DD00D2B06B /* Sources */,
+				D5188893262694DD00D2B06B /* Frameworks */,
+				D5188894262694DD00D2B06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vobyus;
+			productName = Vobyus;
+			productReference = D5188896262694DD00D2B06B /* Vobyus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D51888AB262694DF00D2B06B /* VobyusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51888C3262694DF00D2B06B /* Build configuration list for PBXNativeTarget "VobyusTests" */;
+			buildPhases = (
+				D51888A8262694DF00D2B06B /* Sources */,
+				D51888A9262694DF00D2B06B /* Frameworks */,
+				D51888AA262694DF00D2B06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D51888AE262694DF00D2B06B /* PBXTargetDependency */,
+			);
+			name = VobyusTests;
+			productName = VobyusTests;
+			productReference = D51888AC262694DF00D2B06B /* VobyusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D51888B6262694DF00D2B06B /* VobyusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51888C6262694DF00D2B06B /* Build configuration list for PBXNativeTarget "VobyusUITests" */;
+			buildPhases = (
+				D51888B3262694DF00D2B06B /* Sources */,
+				D51888B4262694DF00D2B06B /* Frameworks */,
+				D51888B5262694DF00D2B06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D51888B9262694DF00D2B06B /* PBXTargetDependency */,
+			);
+			name = VobyusUITests;
+			productName = VobyusUITests;
+			productReference = D51888B7262694DF00D2B06B /* VobyusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D518888E262694DD00D2B06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D5188895262694DD00D2B06B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D51888AB262694DF00D2B06B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D5188895262694DD00D2B06B;
+					};
+					D51888B6262694DF00D2B06B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D5188895262694DD00D2B06B;
+					};
+				};
+			};
+			buildConfigurationList = D5188891262694DD00D2B06B /* Build configuration list for PBXProject "Vobyus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D518888D262694DD00D2B06B;
+			productRefGroup = D5188897262694DD00D2B06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5188895262694DD00D2B06B /* Vobyus */,
+				D51888AB262694DF00D2B06B /* VobyusTests */,
+				D51888B6262694DF00D2B06B /* VobyusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5188894262694DD00D2B06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51888A6262694DF00D2B06B /* LaunchScreen.storyboard in Resources */,
+				D51888A3262694DF00D2B06B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51888AA262694DF00D2B06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51888B5262694DF00D2B06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5188892262694DD00D2B06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D518889E262694DD00D2B06B /* ViewController.swift in Sources */,
+				D518889A262694DD00D2B06B /* AppDelegate.swift in Sources */,
+				D518889C262694DD00D2B06B /* SceneDelegate.swift in Sources */,
+				D51888CD2626951A00D2B06B /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51888A8262694DF00D2B06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51888B1262694DF00D2B06B /* VobyusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51888B3262694DF00D2B06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51888BC262694DF00D2B06B /* VobyusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D51888AE262694DF00D2B06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5188895262694DD00D2B06B /* Vobyus */;
+			targetProxy = D51888AD262694DF00D2B06B /* PBXContainerItemProxy */;
+		};
+		D51888B9262694DF00D2B06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5188895262694DD00D2B06B /* Vobyus */;
+			targetProxy = D51888B8262694DF00D2B06B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D51888A4262694DF00D2B06B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51888A5262694DF00D2B06B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51888BE262694DF00D2B06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51888BF262694DF00D2B06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51888C1262694DF00D2B06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG8ST6ZTSH;
+				INFOPLIST_FILE = Vobyus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vobyus.Vobyus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D51888C2262694DF00D2B06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG8ST6ZTSH;
+				INFOPLIST_FILE = Vobyus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vobyus.Vobyus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D51888C4262694DF00D2B06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG8ST6ZTSH;
+				INFOPLIST_FILE = VobyusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vobyus.VobyusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vobyus.app/Vobyus";
+			};
+			name = Debug;
+		};
+		D51888C5262694DF00D2B06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG8ST6ZTSH;
+				INFOPLIST_FILE = VobyusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vobyus.VobyusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vobyus.app/Vobyus";
+			};
+			name = Release;
+		};
+		D51888C7262694DF00D2B06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG8ST6ZTSH;
+				INFOPLIST_FILE = VobyusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vobyus.VobyusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vobyus;
+			};
+			name = Debug;
+		};
+		D51888C8262694DF00D2B06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG8ST6ZTSH;
+				INFOPLIST_FILE = VobyusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vobyus.VobyusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vobyus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5188891262694DD00D2B06B /* Build configuration list for PBXProject "Vobyus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51888BE262694DF00D2B06B /* Debug */,
+				D51888BF262694DF00D2B06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51888C0262694DF00D2B06B /* Build configuration list for PBXNativeTarget "Vobyus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51888C1262694DF00D2B06B /* Debug */,
+				D51888C2262694DF00D2B06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51888C3262694DF00D2B06B /* Build configuration list for PBXNativeTarget "VobyusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51888C4262694DF00D2B06B /* Debug */,
+				D51888C5262694DF00D2B06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51888C6262694DF00D2B06B /* Build configuration list for PBXNativeTarget "VobyusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51888C7262694DF00D2B06B /* Debug */,
+				D51888C8262694DF00D2B06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D518888E262694DD00D2B06B /* Project object */;
+}

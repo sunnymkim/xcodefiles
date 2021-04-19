@@ -1,0 +1,33 @@
+label,input {
+		width: 300px; 
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		font-size: 30 px;
+}
+body {
+		 background-color:#86d7c8;
+		 height: 100vh;
+		 width: 100vw;
+		 margin: 0;
+		 display:table;
+		 overflow: hidden;
+}
+
+			
+		
+nav {
+		width:150px;
+		height:50px;
+		margin:auto;
+		display:block;
+		background-color: #146572;
+		color:white;
+		border-radius:10px;
+		font-size: 20px;
+		transition-duration:0.5s;
+		-webkit-animation: fadeIn ease 10s;
+		-moz-animation: fadeIn ease 10s;
+		-o-animation: fadeIn ease 10s;
+		animation-delay: 10s;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
